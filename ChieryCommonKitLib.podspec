@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source        = { :git => "https://github.com/chieryd/ChieryCommonKitLib.git", :tag => s.version.to_s }
   s.resources = "library/*.h"
-  s.ios.vendored_library = 'library/ChieryCommonKitLib_a.a'
+  s.ios.vendored_library = 'library/libChieryCommonKit_a.a'
 end
