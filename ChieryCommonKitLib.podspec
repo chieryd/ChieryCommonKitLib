@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ChieryCommonKitLib"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "ChieryCommonKitLib 静态库"
 
   s.description  = <<-DESC
