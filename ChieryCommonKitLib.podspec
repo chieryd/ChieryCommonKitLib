@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ChieryCommonKitLib"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ChieryCommonKitLib 静态库"
 
   s.description  = <<-DESC
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.author        = { "chieryw" => "chieryw@163.com" }
   s.platform     = :ios, "8.0"
   s.source        = { :git => "https://github.com/chieryd/ChieryCommonKitLib.git", :tag => s.version.to_s }
-  s.resources = "library/*.h"
+  s.source_files  = "library/**/*.h"
+  s.public_header_files = "library/**/*.h"
   s.ios.vendored_library = 'library/libChieryCommonKit_a.a'
 end
